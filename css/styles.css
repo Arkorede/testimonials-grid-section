@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 81.25%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.image {
+  border-radius: 50%;
+  width: 2.9rem;
+  height: 2.9rem;
+}
+
+.image_wrapper--daniel {
+  border: 2px hsl(263, 53%, 62%) solid;
+}
+
+.image_wrapper--patrick {
+  border: 2px hsl(263, 55%, 52%) solid;
+}
+
+.container {
+  display: grid;
+  gap: 2rem;
+}
+
+.name {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.bg {
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0px 0px 33px -17px rgba(72, 85, 106, 0.59);
+  -webkit-box-shadow: 0px 0px 33px -17px rgba(72, 85, 106, 0.59);
+  -moz-box-shadow: 0px 0px 33px -17px rgba(72, 85, 106, 0.59);
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  margin-bottom: 1.7rem;
+}
+
+.status {
+  color: hsl(210, 46%, 95%);
+  font-size: 0.9rem;
+}
+
+/* .status--daniel {
+  color: hsl(210, 46%, 95%);
+  font-size: 1rem;
+} */
+
+.review--heading {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* .review--heading--white {
+  color: 
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4rem;
+} */
+
+.review--text {
+  color: hsl(0, 0%, 81%);
+  font-size: 1rem;
+  line-height: 1.2;
+  margin-top: 1.5rem;
+}
+
+.review__text--jonathan {
+  color: hsl(210, 46%, 95%);
+}
+
+.bg--daniel {
+  background-color: hsl(263, 55%, 52%);
+  background-image: url("/images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top right 24px;
+  /* background-size: cover; */
+}
+
+.bg--jonathan {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.text-black {
+  color: hsl(219, 29%, 14%);
+}
+
+.bg--white {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.bg--patrick {
+  background-color: hsl(219, 29%, 14%);
+}
+
+.container {
+  padding: 5rem;
+}
