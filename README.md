@@ -52,7 +52,7 @@ Users should be able to:
 I learned how to place and span grid items
 
 ```css
-@media (min-width: 1024px) {
+@media (min-width: 996px) {
   .container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -73,7 +73,7 @@ I learned how to place and span grid items
   }
 
   .bg--patrick {
-    grid-row: 2 /3;
+    grid-row: 2 / 3;
     grid-column: 2 / 4;
   }
 }
@@ -84,5 +84,3 @@ I learned how to place and span grid items
 - Website - [testimonialz-grid](https://testimonialz-grid.netlify.app/)
 - Frontend Mentor - [@Arkorede](https://www.frontendmentor.io/profile/Arkorede)
 - Twitter - [@IsraelAshaolu](https://twitter.com/IsraelAshaolu)
-
-## Acknowledgments
