@@ -13,13 +13,6 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4rem;
-}
-
 .image {
   border-radius: 50%;
   width: 2.9rem;

@@ -16,6 +16,6 @@
 
 .prettierignore
 
-/design
+./design
 
 /style-guide.md
