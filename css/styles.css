@@ -112,3 +112,11 @@ body {
 .bg--patrick {
   background-color: hsl(219, 29%, 14%);
 }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
